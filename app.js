@@ -4,7 +4,7 @@
 // let paragraph = document.querySelector('p');
 // paragraph.innerHTML = 'Choose a number between 1 and 10';
 let listOfSecretNumber = [];
-let limitNumber = 10;
+let limitNumber = 100;
 let secretNumber = randomNumber();
 let tries = 1;
 
@@ -16,7 +16,7 @@ function screenText(tag, text) {
 
 function startingMessage() {
     screenText('h1', 'Secret Number Game');
-    screenText('p', 'Choose a number between 1 and 10');
+    screenText('p', 'Choose a number between 1 and 100');
 }
 
 startingMessage();
